@@ -1,0 +1,38 @@
+[data-theme="dark"] {
+  background-color: #212121 !important;
+  color: white;
+}
+[data-theme="dark"] .card{
+  background-color: black;
+  color: white;
+}
+[data-theme="dark"] .card-title {
+  border-bottom: 1px solid #212121;
+  padding-bottom: 15px;
+  margin-bottom: -20px;
+}
+[data-theme="dark"] .step-content{
+  background-color: #303f9f;
+  color: white;
+}
+[data-theme="dark"] h6 {
+  color: white;
+}
+[data-theme="dark"] .view{
+  background-color: #303f9f;
+  color: white;
+}
+[data-theme="dark"] .list-group-item {
+  background-color: black;
+  border: 1px solid #212121;
+  color: white;
+}
+[data-theme="dark"] ::-webkit-scrollbar-track {
+    background: black;
+  }
+[data-theme="dark"] ::-webkit-scrollbar-thumb{
+    background: rgba(63, 81, 181, 0.7);
+  }
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover{
+    background: #303f9f;
+  }

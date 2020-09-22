@@ -1,0 +1,42 @@
+.section{
+  padding-top: 5%;
+  justify-content: center;
+  max-width: 100%;
+  margin: auto;
+}
+.page-footer{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-top: 10%;
+}
+.row{
+  max-width: 100%;
+}
+/*Set custom style to scroolbar*/
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: white;
+}
+::-webkit-scrollbar-thumb{
+  background: rgba(63, 81, 181, 0.3);
+}
+::-webkit-scrollbar-thumb:hover{
+  background: rgba(63, 81, 181, 0.7);
+}
+div{
+  justify-content: center;
+}
+.row{
+  margin-left: 0;
+  width: 100%;
+}
+.testimonial-card{
+  padding-top: 20px;
+}
+.custom-control{
+  position: fixed;
+  top: 70px;
+  right: 20px;
+}
