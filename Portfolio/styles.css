@@ -36,7 +36,11 @@ div{
   padding-top: 20px;
 }
 .custom-control{
-  position: fixed;
+  position: absolute;
   top: 70px;
   right: 20px;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  
 }
