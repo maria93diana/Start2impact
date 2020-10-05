@@ -42,5 +42,12 @@ div{
 }
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-  
+  }
+}
+ul.stepper.stepper-vertical{
+  max-width: 100%;
+  padding-right: 0px;
+}
+.stepper-vertical{
+  width: 100%;
 }
