@@ -20,8 +20,16 @@ header {
   align-items: center;
   padding: 50px 15px 15px;
 }
+footer {
+  position: absolute;
+  bottom:10px;
+  left: 10px
+}
+footer p {
+  color: rgba(244, 67, 54, 0.9);
+}
 h1 {
-  font-family: sans-serif;
+  font-family: arial ,sans-serif;
   font-size: 60px;
   text-align: center;
   margin-top: 70px;

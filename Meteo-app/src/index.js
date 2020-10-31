@@ -21,6 +21,7 @@ function getResults (query) {
       return weather.json();
     }).then(displayResults);
 }
+
 function displayResults (weather) {
   let city = document.querySelector('.location .city');
   city.innerHTML = `${weather.name}, ${weather.sys.country}`;
@@ -83,13 +84,13 @@ function getGeoResults() {
 }
 
 function displayGeoWeather(geoweather) {
-  let location = document.querySelector(".city");
+  let location = document.querySelector(".location .city");
   let temperature = document.querySelector(".temp");
   let weather = document.querySelector(".weather");
   let icon = document.querySelector(".weather-icon");
   let minmax = document.querySelector(".hi-low");
 
-  location.innerHTML =  geoweather.name;
+  location.innerHTML =  `${geoweather.name}, ${geoweather.sys.country}`;
   temperature.innerHTML = `${Math.round(geoweather.main.temp)}<span>°C</span>`;
   weather.innerHTML = geoweather.weather[0].description;
   icon.innerHTML = `<img src="http://openweathermap.org/img/wn/${geoweather.weather[0].icon}.png">`;
